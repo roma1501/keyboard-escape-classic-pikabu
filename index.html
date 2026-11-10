@@ -17,8 +17,8 @@
             -webkit-user-select: none;
             user-select: none;
         }
-        @font-face { font-family: 'Nunito'; src: url('assets/fonts/nunito.ttf?v=1.0.5-3f775c58') format('truetype'); font-weight: 200 1000; font-style: normal; font-display: swap; }
-        @font-face { font-family: 'Fredoka'; src: url('assets/fonts/fredoka.ttf?v=1.0.5-3f775c58') format('truetype'); font-weight: 300 700; font-style: normal; font-display: swap; }
+        @font-face { font-family: 'Nunito'; src: url('assets/fonts/nunito.ttf?v=1.0.6-5e9a45f6') format('truetype'); font-weight: 200 1000; font-style: normal; font-display: swap; }
+        @font-face { font-family: 'Fredoka'; src: url('assets/fonts/fredoka.ttf?v=1.0.6-5e9a45f6') format('truetype'); font-weight: 300 700; font-style: normal; font-display: swap; }
         *, *::before, *::after { -webkit-user-select: none; user-select: none; -webkit-touch-callout: none; -webkit-tap-highlight-color: transparent; }
         input[type="text"], input[type="number"], input[type="search"], textarea, [contenteditable="true"] { -webkit-user-select: text; user-select: text; }
         ::selection { background: transparent; }
@@ -104,83 +104,83 @@
 
     <!-- Порядок значим: Constants.js первым (остальные читают его глобалы), main.js последним -->
     <script src="https://games.pikabu.ru/sdk/sdk.js"></script>
-<script src="js/Constants.js?v=1.0.5-3f775c58"></script>
+<script src="js/Constants.js?v=1.0.6-5e9a45f6"></script>
     <!-- 1.40 ads-ui: поле игры на десктопе не шире 2:1 (Playgama); вторым — его resize идёт раньше обработчиков движка -->
-    <script src="js/ViewCap.js?v=1.0.5-3f775c58"></script>
-    <script src="libs/simplex-noise.js?v=1.0.5-3f775c58"></script>
-    <script src="libs/babylon.js?v=1.0.5-3f775c58"></script>
-    <script src="js/Maps.js?v=1.0.5-3f775c58"></script>
-    <script src="js/Maps2D.js?v=1.0.5-3f775c58"></script>
-    <script src="js/World2D.js?v=1.0.5-3f775c58"></script>
-    <script src="js/World3D.js?v=1.0.5-3f775c58"></script>
-    <script src="js/Terrain3D.js?v=1.0.5-3f775c58"></script>
-    <script src="js/CameraControl.js?v=1.0.5-3f775c58"></script>
+    <script src="js/ViewCap.js?v=1.0.6-5e9a45f6"></script>
+    <script src="libs/simplex-noise.js?v=1.0.6-5e9a45f6"></script>
+    <script src="libs/babylon.js?v=1.0.6-5e9a45f6"></script>
+    <script src="js/Maps.js?v=1.0.6-5e9a45f6"></script>
+    <script src="js/Maps2D.js?v=1.0.6-5e9a45f6"></script>
+    <script src="js/World2D.js?v=1.0.6-5e9a45f6"></script>
+    <script src="js/World3D.js?v=1.0.6-5e9a45f6"></script>
+    <script src="js/Terrain3D.js?v=1.0.6-5e9a45f6"></script>
+    <script src="js/CameraControl.js?v=1.0.6-5e9a45f6"></script>
     <!-- 1.40: камера не заслоняется сценой (столкновение, полупрозрачные заслоны) -->
-    <script src="js/CameraSight.js?v=1.0.5-3f775c58"></script>
-    <script src="js/Model3D.js?v=1.0.5-3f775c58"></script>
-    <script src="js/ModelFBX.js?v=1.0.5-3f775c58"></script>
-    <script src="js/ModelOBJ.js?v=1.0.5-3f775c58"></script>
-    <script src="js/ModelGLTF.js?v=1.0.5-3f775c58"></script>
-    <script src="js/Location3D.js?v=1.0.5-3f775c58"></script>
+    <script src="js/CameraSight.js?v=1.0.6-5e9a45f6"></script>
+    <script src="js/Model3D.js?v=1.0.6-5e9a45f6"></script>
+    <script src="js/ModelFBX.js?v=1.0.6-5e9a45f6"></script>
+    <script src="js/ModelOBJ.js?v=1.0.6-5e9a45f6"></script>
+    <script src="js/ModelGLTF.js?v=1.0.6-5e9a45f6"></script>
+    <script src="js/Location3D.js?v=1.0.6-5e9a45f6"></script>
     <!-- world-a: Rig.js (риги и клипы), Nav.js (коллизии, высоты, пути) -->
-    <script src="js/Rig.js?v=1.0.5-3f775c58"></script>
-    <script src="js/Nav.js?v=1.0.5-3f775c58"></script>
+    <script src="js/Rig.js?v=1.0.6-5e9a45f6"></script>
+    <script src="js/Nav.js?v=1.0.6-5e9a45f6"></script>
     <!-- 1.30 мир (world-b): уровни графики и время суток -->
-    <script src="js/Quality.js?v=1.0.5-3f775c58"></script>
-    <script src="js/Sky3D.js?v=1.0.5-3f775c58"></script>
-    <script src="js/Pause.js?v=1.0.5-3f775c58"></script>
-    <script src="js/Sound.js?v=1.0.5-3f775c58"></script>
-    <script src="js/Lang.js?v=1.0.5-3f775c58"></script>
-    <script src="js/Platform.js?v=1.0.5-3f775c58"></script>
+    <script src="js/Quality.js?v=1.0.6-5e9a45f6"></script>
+    <script src="js/Sky3D.js?v=1.0.6-5e9a45f6"></script>
+    <script src="js/Pause.js?v=1.0.6-5e9a45f6"></script>
+    <script src="js/Sound.js?v=1.0.6-5e9a45f6"></script>
+    <script src="js/Lang.js?v=1.0.6-5e9a45f6"></script>
+    <script src="js/Platform.js?v=1.0.6-5e9a45f6"></script>
     <!-- Адаптеры площадок (Platform.register): Playgama; игра добавляет свои здесь же, после Platform.js -->
-    <script src="js/PlatformPlaygama.js?v=1.0.5-3f775c58"></script>
+    <script src="js/PlatformPlaygama.js?v=1.0.6-5e9a45f6"></script>
     <!-- Адаптеры Telegram Mini App, CrazyGames, Android-обёртки и сборки test (detect() выбирает площадку) -->
-    <script src="js/PlatformTelegram.js?v=1.0.5-3f775c58"></script>
-    <script src="js/PlatformCrazy.js?v=1.0.5-3f775c58"></script>
-    <script src="js/PlatformPikabu.js?v=1.0.5-3f775c58"></script>
-    <script src="js/PlatformAndroid.js?v=1.0.5-3f775c58"></script>
-    <script src="js/PlatformTest.js?v=1.0.5-3f775c58"></script>
-    <script src="js/LoadingScreen.js?v=1.0.5-3f775c58"></script>
-    <script src="js/ParticleFX.js?v=1.0.5-3f775c58"></script>
-    <script src="js/Telemetry.js?v=1.0.5-3f775c58"></script>
+    <script src="js/PlatformTelegram.js?v=1.0.6-5e9a45f6"></script>
+    <script src="js/PlatformCrazy.js?v=1.0.6-5e9a45f6"></script>
+    <script src="js/PlatformPikabu.js?v=1.0.6-5e9a45f6"></script>
+    <script src="js/PlatformAndroid.js?v=1.0.6-5e9a45f6"></script>
+    <script src="js/PlatformTest.js?v=1.0.6-5e9a45f6"></script>
+    <script src="js/LoadingScreen.js?v=1.0.6-5e9a45f6"></script>
+    <script src="js/ParticleFX.js?v=1.0.6-5e9a45f6"></script>
+    <script src="js/Telemetry.js?v=1.0.6-5e9a45f6"></script>
     <!-- 1.30 systems-b: магазин косметики, Daily Gift, колесо фортуны (логика без UI, опт-ин: Shop/DailyGift/Wheel.init в Game.js) -->
-    <script src="js/Shop.js?v=1.0.5-3f775c58"></script>
-    <script src="js/DailyGift.js?v=1.0.5-3f775c58"></script>
-    <script src="js/Wheel.js?v=1.0.5-3f775c58"></script>
+    <script src="js/Shop.js?v=1.0.6-5e9a45f6"></script>
+    <script src="js/DailyGift.js?v=1.0.6-5e9a45f6"></script>
+    <script src="js/Wheel.js?v=1.0.6-5e9a45f6"></script>
     <!-- 1.30 systems-a: ввод, раскладка HUD, обучение. Opt-in: игра сама зовёт Input.init / HudLayout.init / Tutorial.init -->
-    <script src="js/HudLayout.js?v=1.0.5-3f775c58"></script>
-    <script src="js/Input.js?v=1.0.5-3f775c58"></script>
-    <script src="js/Tutorial.js?v=1.0.5-3f775c58"></script>
-    <script src="js/LiveWater3D.js?v=1.0.5-3f775c58"></script>
+    <script src="js/HudLayout.js?v=1.0.6-5e9a45f6"></script>
+    <script src="js/Input.js?v=1.0.6-5e9a45f6"></script>
+    <script src="js/Tutorial.js?v=1.0.6-5e9a45f6"></script>
+    <script src="js/LiveWater3D.js?v=1.0.6-5e9a45f6"></script>
     <!-- 1.40 motion: физический блочный персонаж (opt-in). Порядок значим: MotionMath (GM) -> Humanoid -> MotionMatch -> CharacterPhysics -> Ragdoll -> Character -->
-    <script src="js/MotionMath.js?v=1.0.5-3f775c58"></script>
-    <script src="js/Humanoid.js?v=1.0.5-3f775c58"></script>
-    <script src="js/MotionMatch.js?v=1.0.5-3f775c58"></script>
-    <script src="js/CharacterPhysics.js?v=1.0.5-3f775c58"></script>
-    <script src="js/Ragdoll.js?v=1.0.5-3f775c58"></script>
-    <script src="js/Character.js?v=1.0.5-3f775c58"></script>
+    <script src="js/MotionMath.js?v=1.0.6-5e9a45f6"></script>
+    <script src="js/Humanoid.js?v=1.0.6-5e9a45f6"></script>
+    <script src="js/MotionMatch.js?v=1.0.6-5e9a45f6"></script>
+    <script src="js/CharacterPhysics.js?v=1.0.6-5e9a45f6"></script>
+    <script src="js/Ragdoll.js?v=1.0.6-5e9a45f6"></script>
+    <script src="js/Character.js?v=1.0.6-5e9a45f6"></script>
     <!-- 1.40 obby (ветка obby): трасса из деталей карты, тело героя, боты и их чат, вид. Опт-ин: игра сама зовёт ObbyCourse.build / ObbyBots.init -->
-    <script src="js/ObbyCourse.js?v=1.0.5-3f775c58"></script>
-    <script src="js/ObbyBody.js?v=1.0.5-3f775c58"></script>
-    <script src="js/ObbyChat.js?v=1.0.5-3f775c58"></script>
-    <script src="js/ObbyBots.js?v=1.0.5-3f775c58"></script>
-    <script src="js/ObbyCourseView.js?v=1.0.5-3f775c58"></script>
-    <script src="js/ObbyAvatar.js?v=1.0.5-3f775c58"></script>
+    <script src="js/ObbyCourse.js?v=1.0.6-5e9a45f6"></script>
+    <script src="js/ObbyBody.js?v=1.0.6-5e9a45f6"></script>
+    <script src="js/ObbyChat.js?v=1.0.6-5e9a45f6"></script>
+    <script src="js/ObbyBots.js?v=1.0.6-5e9a45f6"></script>
+    <script src="js/ObbyCourseView.js?v=1.0.6-5e9a45f6"></script>
+    <script src="js/ObbyAvatar.js?v=1.0.6-5e9a45f6"></script>
     <!-- Скрипты игры (js/Game.js и её модули) — здесь, до main.js -->
-    <script src="js/GameData.js?v=1.0.5-3f775c58"></script>
-    <script src="js/GameProgress.js?v=1.0.5-3f775c58"></script>
-    <script src="js/GameKeys.js?v=1.0.5-3f775c58"></script>
-    <script src="js/GameHazards.js?v=1.0.5-3f775c58"></script>
-    <script src="js/GameHero.js?v=1.0.5-3f775c58"></script>
-    <script src="js/GameBots.js?v=1.0.5-3f775c58"></script>
-    <script src="js/GamePost.js?v=1.0.5-3f775c58"></script>
-    <script src="js/GameTreadmills.js?v=1.0.5-3f775c58"></script>
-    <script src="js/GameChoco.js?v=1.0.5-3f775c58"></script>
-    <script src="js/GameOffers.js?v=1.0.5-3f775c58"></script>
-    <script src="js/GameWorld.js?v=1.0.5-3f775c58"></script>
+    <script src="js/GameData.js?v=1.0.6-5e9a45f6"></script>
+    <script src="js/GameProgress.js?v=1.0.6-5e9a45f6"></script>
+    <script src="js/GameKeys.js?v=1.0.6-5e9a45f6"></script>
+    <script src="js/GameHazards.js?v=1.0.6-5e9a45f6"></script>
+    <script src="js/GameHero.js?v=1.0.6-5e9a45f6"></script>
+    <script src="js/GameBots.js?v=1.0.6-5e9a45f6"></script>
+    <script src="js/GamePost.js?v=1.0.6-5e9a45f6"></script>
+    <script src="js/GameTreadmills.js?v=1.0.6-5e9a45f6"></script>
+    <script src="js/GameChoco.js?v=1.0.6-5e9a45f6"></script>
+    <script src="js/GameOffers.js?v=1.0.6-5e9a45f6"></script>
+    <script src="js/GameWorld.js?v=1.0.6-5e9a45f6"></script>
     <!-- Интерфейс игры (agent ui): данные магазина, тексты, стили, набор, окна, магазин/подарок/колесо, HUD. Порядок значим -->
-    <script src="js/GameShopData.js?v=1.0.5-3f775c58"></script>
-    <script src="js/GameUiLang.js?v=1.0.5-3f775c58"></script>
+    <script src="js/GameShopData.js?v=1.0.6-5e9a45f6"></script>
+    <script src="js/GameUiLang.js?v=1.0.6-5e9a45f6"></script>
     <script>
         // Клавиши-логотип загрузки — на языке игры (ПОБЕГ / С КЛАВИАТУРЫ · KEYBOARD / ESCAPE); до этого скрыты, без мигания
         (() => {
@@ -199,13 +199,15 @@
             window.addEventListener('lory-language', paint);
         })();
     </script>
-    <script src="js/GameUiCss.js?v=1.0.5-3f775c58"></script>
-    <script src="js/GameUiKit.js?v=1.0.5-3f775c58"></script>
-    <script src="js/GameUiWindows.js?v=1.0.5-3f775c58"></script>
-    <script src="js/GameUiShop.js?v=1.0.5-3f775c58"></script>
-    <script src="js/GameHud.js?v=1.0.5-3f775c58"></script>
-    <script src="js/Game.js?v=1.0.5-3f775c58"></script>
-    <script src="js/main.js?v=1.0.5-3f775c58"></script>
+    <script src="js/GameUiCss.js?v=1.0.6-5e9a45f6"></script>
+    <script src="js/GameUiKit.js?v=1.0.6-5e9a45f6"></script>
+    <script src="js/GameUiWindows.js?v=1.0.6-5e9a45f6"></script>
+    <script src="js/GameUiShop.js?v=1.0.6-5e9a45f6"></script>
+    <script src="js/GameHud.js?v=1.0.6-5e9a45f6"></script>
+    <script src="js/Game.js?v=1.0.6-5e9a45f6"></script>
+    <script src="js/PikabuShop.js?v=1.0.6-5e9a45f6"></script>
+    <script src="js/PikabuPacks.js?v=1.0.6-5e9a45f6"></script>
+    <script src="js/main.js?v=1.0.6-5e9a45f6"></script>
     <script>
         // Игровая область: долгий тап и ПКМ не открывают меню браузера, картинки не
         // тянутся, текст не выделяется — кроме настоящих полей ввода.
